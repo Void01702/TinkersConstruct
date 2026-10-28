@@ -110,6 +110,7 @@
   "item.tconstruct.cobalt_nugget": "Pépite de cobalt",
   
   "block.tconstruct.steel_block": "Bloc d'acier",
+  "block.tconstruct.steel_block.tooltip": "Peut servir de base pour une balise",
   "item.tconstruct.steel_ingot": "Lingot d'acier",
   "item.tconstruct.steel_nugget": "Pépite d'acier",
 
@@ -117,6 +118,7 @@
   "_comment": "Tier 3 Metals",
 
   "block.tconstruct.slimesteel_block": "Bloc d'acierslime",
+  "block.tconstruct.slimesteel_block.tooltip": "Peut servir de base transparente pour une balise",
   "item.tconstruct.slimesteel_ingot": "Lingot d'acierslime",
   "item.tconstruct.slimesteel_nugget": "Pépite d'acierslime",
   
@@ -146,6 +148,7 @@
   "item.tconstruct.hepatizon_nugget": "Pépite d'hépatizon",
   
   "block.tconstruct.cinderslime_block": "Bloc de scorieslime",
+  "block.tconstruct.cinderslime_block.tooltip": "Peut servir de base transparente pour une balise",
   "item.tconstruct.cinderslime_ingot": "Lingot de scorieslime",
   "item.tconstruct.cinderslime_nugget": "Pépite de scorieslime",
   
@@ -154,7 +157,13 @@
   "item.tconstruct.queens_slime_ingot": "Lingot de reineslime",
   "item.tconstruct.queens_slime_nugget": "Pépite de reineslime",
 
+  "block.tconstruct.knightmetal_block": "Bloc de chevaliétal",
+  "block.tconstruct.knightmetal_block.tooltip": "Peut servir de base hérissé pour une balise",
+  "item.tconstruct.knightmetal_ingot": "Lingot de chevaliétal",
+  "item.tconstruct.knightmetal_nugget": "Pépite de chevaliétal",
+
   "block.tconstruct.knightslime_block": "Bloc de chevaleresqueslime",
+  "block.tconstruct.knightslime_block.tooltip": "Peut servir de base transparente pour une balise",
   "item.tconstruct.knightslime_ingot": "Lingot de chevaleresqueslime",
   "item.tconstruct.knightslime_nugget": "Pépite de chevaleresqueslime",
   
@@ -226,6 +235,19 @@
   "block.tconstruct.large_ender_slime_crystal_bud": "Grand bourgeon de cristal d'enderslime",
   "block.tconstruct.ender_slime_crystal_cluster": "Grappe de cristal d'enderslime",
   "block.tconstruct.budding_ender_slime_crystal": "Cristal en croissance d'enderslime",
+
+  "item.tconstruct.steel_shard": "Éclat d'acier",
+  "item.tconstruct.steel_shard.tooltip": "Éclat de métal engloutis par des céletslimes.",
+  "block.tconstruct.steel_cluster": "Amas d'acier",
+  "block.tconstruct.steel_cluster.tooltip": "Formation naturelle d'éclats d'acier. Ne repousse pas.",
+  "item.tconstruct.cobalt_shard": "Éclat de cobalt",
+  "item.tconstruct.cobalt_shard.tooltip": "Éclat de métal trouvé près de l'ichor.",
+  "block.tconstruct.cobalt_cluster": "Amas de cobalt",
+  "block.tconstruct.cobalt_cluster.tooltip": "Formation naturelle d'éclats de cobalt. Ne repousse pas.",
+  "item.tconstruct.knightmetal_shard": "Éclat de chevaliétal",
+  "item.tconstruct.knightmetal_shard.tooltip": "Éclat de métal engloutis par des enderslimes.",
+  "block.tconstruct.knightmetal_cluster": "Amas de chevaliétal",
+  "block.tconstruct.knightmetal_cluster.tooltip": "Formation naturelle d'éclats de chevaliétal. Ne repousse pas.",
   
   "item.tconstruct.emerald_reinforcement": "Renfort en émeraude",
   "item.tconstruct.emerald_reinforcement.tooltip": "Réduit la probabilité qu'un outil prenne des dégâts",
@@ -278,6 +300,11 @@
   "pattern.tconstruct.nugget": "Pépite",
   "pattern.tconstruct.gem": "Gemme",
   "pattern.tconstruct.rod": "Tige",
+
+  "pattern.tconstruct.block": "Bloc",
+  "pattern.tconstruct.shard": "Éclat",
+  "pattern.tconstruct.crystal": "Cristal",
+  "pattern.tconstruct.scale": "Écaille",
   
   "pattern.tconstruct.gear": "Engrenage",
   "pattern.tconstruct.plate": "Petite plaque",
@@ -298,6 +325,7 @@
   "pattern.tconstruct.small_blade": "Petite lame",
   "pattern.tconstruct.adze_head": "Tête de herminette",
   "pattern.tconstruct.bow_limb": "Branche d'arc",
+  "pattern.tconstruct.arrow_head": "Pointe de flèche",
 
   "_comment": "Large Head Patterns",
 
@@ -319,6 +347,15 @@
   "pattern.tconstruct.tool_handle": "Manche d'outil",
   "pattern.tconstruct.tough_handle": "Manche robuste",
   "pattern.tconstruct.bow_grip": "Poignée d'arc",
+  "pattern.tconstruct.arrow_shaft": "Fût de flèche",
+  "pattern.tconstruct.fletching": "Empennage",
+  "pattern.tconstruct.arrow_part": "Pièce de flèche",
+
+  "_comment": "Slimesuit Patterns",
+
+  "pattern.tconstruct.ribcage": "Cage thoracique",
+  "pattern.tconstruct.shell": "Coquille",
+  "pattern.tconstruct.laces": "Lacets",
 
   
   "_comment": "Tinkers Gold Casts",
@@ -358,6 +395,8 @@
 
   "item.tconstruct.tool_binding_cast": "Moule d'or pour fixation d'outil",
   "item.tconstruct.tough_binding_cast": "Moule d'or pour collet robuste",
+  "item.tconstruct.arrow_cast": "Modèle de flèche en or",
+  "item.tconstruct.arrow_cast.tooltip": "Modèle réutilisable pour créer des pièces de flèche dans le constructeur de pièces",
 
   "_comment": "Tool Handle Gold Casts",
 
@@ -716,6 +755,12 @@
   "item.tconstruct.molten_hepatizon_bucket": "Seau d'hépatizon fondu",
   "fluid.tconstruct.molten_hepatizon.fluid_effect": "L'hépatizon fondu possède des propriétés mystérieuses et puissantes.",
 
+  "block.tconstruct.molten_knightmetal_fluid": "Chevaliétal fondu",
+  "fluid.tconstruct.molten_knightmetal": "Chevaliétal fondu",
+  "fluid.tconstruct.flowing_molten_knightmetal": "Chevaliétal fondu ruisselant",
+  "item.tconstruct.molten_knightmetal_bucket": "Seau de chevaliétal fondu",
+  "fluid.tconstruct.molten_knightmetal.fluid_effect": "Ironiquement, le chevaliétal est particulièrement adapté à tuer ceux dont il provient.",
+
   "block.tconstruct.molten_cinderslime_fluid": "Scorieslime fondu",
   "fluid.tconstruct.molten_cinderslime": "Scorieslime fondu",
   "fluid.tconstruct.flowing_molten_cinderslime": "Scorieslime fondu ruisselant",
@@ -730,6 +775,12 @@
   "fluid.tconstruct.molten_soulsteel": "Acier des âmes fondu",
   "fluid.tconstruct.flowing_molten_soulsteel": "Acier des âmes fondu ruisselant",
   "item.tconstruct.molten_soulsteel_bucket": "Seau d'acier des âmes fondu",
+
+  "block.tconstruct.molten_netherite_fluid": "Netherite fondu",
+  "fluid.tconstruct.molten_netherite": "Netherite fondu",
+  "fluid.tconstruct.flowing_molten_netherite": "Netherite fondu ruisselant",
+  "item.tconstruct.molten_netherite_bucket": "seau de Nntherite fondu",
+  "fluid.tconstruct.molten_netherite.fluid_effect": "La netherite fondu inflige le plus de dégats, pour ne pas attendre que sa cible se vide de son sang.",
   
   "block.tconstruct.molten_knightslime_fluid": "Chevaleresqueslime fondu",
   "fluid.tconstruct.molten_knightslime": "Chevaleresqueslime fondu",
@@ -798,8 +849,26 @@
   "item.tconstruct.molten_uranium_bucket": "Seau d'uranium fondu",
   "fluid.tconstruct.molten_uranium.fluid_effect": "L'uranium fondu est dangereux mais puissant.",
 
+  "block.tconstruct.molten_chromium_fluid": "Chromium fondu",
+  "fluid.tconstruct.molten_chromium": "Chromium fondu",
+  "fluid.tconstruct.flowing_molten_chromium": "Chromium fondu ruisselant",
+  "item.tconstruct.molten_chromium_bucket": "Seau de chromium fondu",
+  "fluid.tconstruct.molten_chromium.fluid_effect": "Si seulement la chance était un effet utile, ce liquide serait excellent à boire!",
+
+  "block.tconstruct.molten_cadmium_fluid": "Cadmium fondu",
+  "fluid.tconstruct.molten_cadmium": "Cadmium fondu",
+  "fluid.tconstruct.flowing_molten_cadmium": "Cadmium fondu ruisselant",
+  "item.tconstruct.molten_cadmium_bucket": "Seau de cadmium fondu",
+  "fluid.tconstruct.molten_cadmium.fluid_effect": "Parfait pour les combats sous-marins.",
+
   
   "_comment": "Compat Alloys",
+
+  "block.tconstruct.molten_bronze_fluid": "Bronze fondu",
+  "fluid.tconstruct.molten_bronze": "Bronze fondu",
+  "fluid.tconstruct.flowing_molten_bronze": "Bronze fondu ruisselant",
+  "item.tconstruct.molten_bronze_bucket": "Seau de bronze fondu",
+  "fluid.tconstruct.molten_bronze.fluid_effect": "Le bronze fondu est la boisson marron idéale pour tenir les fantômes à distance.",
 
   "block.tconstruct.molten_brass_fluid": "Laiton fondu",
   "fluid.tconstruct.molten_brass": "Laiton fondu",
@@ -807,12 +876,36 @@
   "item.tconstruct.molten_brass_bucket": "Seau de laiton fondu",
   "fluid.tconstruct.molten_brass.fluid_effect": "Le laiton fondu vous aide à résister à la chaleur, et une deuxième gorgée est gratuite si vous la prenez au bon moment.",
 
+  "block.tconstruct.molten_electrum_fluid": "Électrum fondu",
+  "fluid.tconstruct.molten_electrum": "Électrum fondu",
+  "fluid.tconstruct.flowing_molten_electrum": "Électrum fondu ruisselant",
+  "item.tconstruct.molten_electrum_bucket": "Seau d'électrum fondu",
+  "fluid.tconstruct.molten_electrum.fluid_effect": "L'électrum fondu est idéal lorsque vous devez miner rapidement avec un budget limité.",
+
+  "block.tconstruct.molten_invar_fluid": "Invar fondu",
+  "fluid.tconstruct.molten_invar": "Invar fondu",
+  "fluid.tconstruct.flowing_molten_invar": "Invar fondu ruisselant",
+  "item.tconstruct.molten_invar_bucket": "Seau d'invar fondu",
+  "fluid.tconstruct.molten_invar.fluid_effect": "L'invar fondu peut être utile pour manger ce gâteau coriace, mais, en dehors de cela, c'est un fluide étrange.",
+
+  "block.tconstruct.molten_constantan_fluid": "Constantan fondu",
+  "fluid.tconstruct.molten_constantan": "Constantan fondu",
+  "fluid.tconstruct.flowing_molten_constantan": "Constantan fondu ruisselant",
+  "item.tconstruct.molten_constantan_bucket": "Seau de constantan fondu",
+  "fluid.tconstruct.molten_constantan.fluid_effect": "Le constantan fondu peut être utile contre des humains, mais pas contre les monstres.",
+
   "block.tconstruct.molten_pewter_fluid": "Étain fondu",
   "fluid.tconstruct.molten_pewter": "Étain fondu",
   "fluid.tconstruct.flowing_molten_pewter": "Étain fondu ruisselant",
   "item.tconstruct.molten_pewter_bucket": "Seau d'étain fondu",
   "fluid.tconstruct.molten_pewter.fluid_effect": "L'étain fondu est sans doute moins risqué que du venin pour accroître votre force… mais à peine.",
 
+  "block.tconstruct.molten_steel_fluid": "Acier fondu",
+  "fluid.tconstruct.molten_steel": "Acier fondu",
+  "fluid.tconstruct.flowing_molten_steel": "Acier fondu ruisselant",
+  "item.tconstruct.molten_steel_bucket": "Seau d'acier fondu",
+  "fluid.tconstruct.molten_steel.fluid_effect": "L'acier fondu permet d'éliminer les ennemis qui vous entourent, ou de disperser des ennemis regroupés.",
+  
   "_comment": "Thermal Alloys",
 
   "block.tconstruct.molten_enderium_fluid": "Enderium fondu",
@@ -846,6 +939,41 @@
   "item.tconstruct.molten_refined_obsidian_bucket": "Seau d'obsidienne raffinée fondue",
   "fluid.tconstruct.molten_refined_obsidian.fluid_effect": "L'obsidienne raffinée fondue est très résistante et pratique pour les crafts avancés.",
 
+  "_comment": "Cosmere Alloys",
+
+  "block.tconstruct.molten_nicrosil_fluid": "Nicrosil fondu",
+  "fluid.tconstruct.molten_nicrosil": "Nicrosil fondu",
+  "fluid.tconstruct.flowing_molten_nicrosil": "Nicrosil fondu ruisselant",
+  "item.tconstruct.molten_nicrosil_bucket": "Seau de nicrosil fondu",
+  "fluid.tconstruct.molten_nicrosil.fluid_effect": "Le nicrosil a une emprise sur la magie, ce serait du gâchis de l’utiliser ainsi.",
+
+  "block.tconstruct.molten_duralumin_fluid": "Duralumin fondu",
+  "fluid.tconstruct.molten_duralumin": "Duralumin fondu",
+  "fluid.tconstruct.flowing_molten_duralumin": "Duralumin fondu ruisselant",
+  "item.tconstruct.molten_duralumin_bucket": "Seau de duralumin fondu",
+  "fluid.tconstruct.molten_duralumin.fluid_effect": "Vous déconnecte du monde.",
+
+  "block.tconstruct.molten_bendalloy_fluid": "Bendalliage fondu",
+  "fluid.tconstruct.molten_bendalloy": "Bendalliage fondu",
+  "fluid.tconstruct.flowing_molten_bendalloy": "Bendalliage fondu ruisselant",
+  "item.tconstruct.molten_bendalloy_bucket": "Seau de bendalliage fondu",
+  "fluid.tconstruct.molten_bendalloy.fluid_effect": "Un snack idéal au milieu d’un combat.",
+
+  "_comment": "Twilight Forest Alloys",
+
+  "block.tconstruct.molten_steeleaf": "Steeleaf fondu",
+  "fluid.tconstruct.molten_steeleaf": "Steeleaf fondu",
+  "fluid.tconstruct.flowing_molten_steeleaf": "Steeleaf fondu ruisselant",
+  "item.tconstruct.molten_steeleaf_bucket": "Seau de steeleaf fondu",
+  "fluid.tconstruct.molten_steeleaf.fluid_effect": "Utile aussi bien pour vous que pour votre cible, afin de maximiser l’expérience acquise.",
+
+  "block.tconstruct.fiery_liquid": "Liquide ardent",
+  "fluid.tconstruct.fiery_liquid": "Liquide ardent",
+  "fluid.tconstruct.flowing_fiery_liquid": "Liquide ardent ruisselant",
+  "item.tconstruct.fiery_liquid_bucket": "Seau de liquide ardent",
+  "fluid.tconstruct.fiery_liquid.fluid_effect": "Vous pourriez penser que c'est une offre fantastique, tellements de lingots en plus! Mais le liquide ardent, c'est pas donné.",
+
+
   "_comment": "Fluid effect contents",
   "fluid_effect.tconstruct.separator": "%s et %s",
   
@@ -868,12 +996,13 @@
   "fluid_effect.tconstruct.fire.set": "%d secondes de feu",
   "fluid_effect.tconstruct.freeze.add": "+%d secondes de gel",
   "fluid_effect.tconstruct.freeze.set": "%d secondes de gel",
-  "fluid_effect.tconstruct.award_stat.add": "+%s %s",
-  "fluid_effect.tconstruct.award_stat.subtract": "-%s %s",
   "fluid_effect.tconstruct.add_breath.add": "+%d Souffle",
   "fluid_effect.tconstruct.add_breath.subtract": "-%d Souffle",
   "fluid_effect.tconstruct.push_entity.push": "Pousse la cible",
   "fluid_effect.tconstruct.push_entity.pull": "Tire la cible",
+
+  "fluid_effect.tconstruct.award_stat.add": "+%s %s",
+  "fluid_effect.tconstruct.award_stat.subtract": "-%s %s",
   
   "fluid_effect.tconstruct.damage": "%s Dégâts",
   "fluid_effect.tconstruct.damage.tconstruct.fluid.impact": "%s Dégâts",
