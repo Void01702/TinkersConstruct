@@ -1848,8 +1848,8 @@
 
   "material.tconstruct.cactus": "Cactus",
   "material.tconstruct.cactus.flavor": "Un bouclier à pointes pique les poignardeurs peu prudent.",
-  "material.tconstruct.cactus.encyclopedia.ranged": "Donne +0.1 de velocité par niveau, mais coute 1 point de vie par niveau à lancer.",
-  "material.tconstruct.cactus.encyclopedia.ammo": "Donne +0.1 de velocité et +0.5 de puissance par niveau, mais coute 1 point de vie par niveau à tirer.",
+  "material.tconstruct.cactus.encyclopedia.ranged": "Donne +0.1 de velocité par niveau, mais coûte 1 point de vie par niveau à lancer.",
+  "material.tconstruct.cactus.encyclopedia.ammo": "Donne +0.1 de velocité et +0.5 de puissance par niveau, mais coûte 1 point de vie par niveau à tirer.",
   "material.tconstruct.cactus.encyclopedia.armor": "Donne 15% de chance de faire 1-4 dégats sur les contrataques, ou 30% de chance en bloquant.",
   
   "material.tconstruct.rock": "Roche",
@@ -1968,14 +1968,14 @@
   "material.tconstruct.slimewood.encyclopedia": "5% de chances par niveau de régénérer l'overslime chaque seconde",
   "material.tconstruct.slimewood.encyclopedia.ammo": "Cause les projectiles suffisament rapide de rebondir jusqu'à 3 fois contre des blocs.",
   "material.tconstruct.slimeskin": "Peau gluante",
-  "material.tconstruct.slimeskin.flavor": "Ça en met partout.",
+  "material.tconstruct.slimeskin.flavor": "Est ce que les slimes ont de la peau?",
   "material.tconstruct.slimeskin.encyclopedia": "5% de chances par niveau de régénérer l'overslime chaque seconde.",
   
   "material.tconstruct.venombone": "Veninmos",
   "material.tconstruct.venombone.flavor": "Deviens le fléau de tes ennemis",
   "material.tconstruct.venombone.encyclopedia": "Augmente les dégâts de mêlée sous poison de 0,5 plus le niveau de poison",
   "material.tconstruct.venombone.encyclopedia.ranged": "Augmente la vitesse de tir sous poison de 0,05 plus 0,1 par niveau de poison",
-  "material.tconstruct.venombone.encyclopedia.armor": "Lorsque attaqué, a 15% de chance d'appliquer un venin faisant prendre 2 fois plus de dégats magique pour 5 à 10 secondes (ou jusqu'à 15 secondes si bloqué).",
+  "material.tconstruct.venombone.encyclopedia.armor": "Lorsque attaqué, a 15% de chance d'appliquer un venin à l'attaqueur, lui faisant prendre 2 fois plus de dégats magique pour 5 à 10 secondes (ou jusqu'à 15 secondes si bloqué).",
   "material.tconstruct.venombone.encyclopedia.ammo": "Applique un venin à la cible, leur faisant prendre 2 fois plus de dégats magique pour 5 à 10 secondes.",
   "material.tconstruct.venombone.encyclopedia.ribcage": "Si empoisonné, augmente les dégats à main nu de 0.5 plus le niveau de poison.",
   
@@ -1987,7 +1987,7 @@
   "material.tconstruct.rose_gold.encyclopedia.skull": "Augmente la vie de 1 cœur, plus un cœur supplémentaire par pièce d'armure d'orrose.",
   
   "material.tconstruct.skyslime_vine": "Liane gluante",
-  "material.tconstruct.skyslime_vine.flavor": "Vole comme un papillon, pique comme une abeille.",
+  "material.tconstruct.skyslime_vine.flavor": "Flotte comme un slime, pique comme une abeille.",
   "material.tconstruct.skyslime_vine.encyclopedia.melee_harvest": "Annule la réduction de vitesse de minage lorsqu'on n'est pas au sol",
   "material.tconstruct.skyslime_vine.encyclopedia.ranged": "+0,5 de précision hors du sol ou d'une échelle",
   "material.tconstruct.skyslime_vine.encyclopedia.armor": "Réduir la gravité de 15% par pièce d'armure.",
@@ -1996,22 +1996,125 @@
   "material.tconstruct.skyslimeskin": "Peau gluante",
   "material.tconstruct.skyslimeskin.flavor": "Slimes flottants percé par une abeille.",
   "material.tconstruct.skyslimeskin.encyclopedia.armor": "Réduit de 10% les dégats infligés par des cibles aériennes.",
-  
+
+  "material.tconstruct.weeping_vine": "Liane pleureuse",
+  "material.tconstruct.weeping_vine.flavor": "Canalise la chaleur.",
+  "material.tconstruct.weeping_vine.encyclopedia": "Donne jusqu'à +1.25 dégats dans les biomes chauds, mais jusqu'à -1.25 dans les biomes froids.",
+  "material.tconstruct.weeping_vine.encyclopedia.ranged": "Donne jusqu'à +0.75 de puissance dans les biomes chauds, mais jusqu'à -0.75 dans les biomes froids.",
+  "material.tconstruct.weeping_vine.encyclopedia.armor": "Donne jusqu'à +5% de protection dans les biomes chauds, mais jusqu'à -5% dans les biomes froids.",
+  "material.tconstruct.weeping_vine.encyclopedia.laces": "Augmente la vitesse de +40.5% sur le sable des âmes, plus +10.5% par niveau supplémentaire. Réduit le ralentissement sur le sable des âmes.",
+
+  "material.tconstruct.twisting_vine": "Liane tortueuse",
+  "material.tconstruct.twisting_vine.flavor": "Mange les spores!",
+  "material.tconstruct.twisting_vine.encyclopedia.melee_harvest": "Augmente la vitesse de minage de +6, mais coûte 1 point de vie à poser.",
+  "material.tconstruct.twisting_vine.encyclopedia.ranged": "Augmente la vitesse de tir de +15%, mais coûte 1 point de vie à poser.",
+  "material.tconstruct.twisting_vine.encyclopedia.armor": "Augmente la vitesse de mouvement de 10%, mais coûte 2 points de vie par niveau à déséquiper.",
+  "material.tconstruct.twisting_vine.encyclopedia.laces": "Augmente la vitesse de mouvement de 10%, mais coûte 2 points de vie par niveau à déséquiper.",
+
+  "material.tconstruct.wool": "Laine",
+  "material.tconstruct.wool.white": "Laine blanche",
+  "material.tconstruct.wool.orange": "Laine orange",
+  "material.tconstruct.wool.magenta": "Laine magenta",
+  "material.tconstruct.wool.light_blue": "Laine bleu clair",
+  "material.tconstruct.wool.yellow": "Laine jaune",
+  "material.tconstruct.wool.lime": "Laine vert clair",
+  "material.tconstruct.wool.pink": "Laine rose",
+  "material.tconstruct.wool.gray": "Laine grise",
+  "material.tconstruct.wool.light_gray": "Laine gris clair",
+  "material.tconstruct.wool.cyan": "Laine cyan",
+  "material.tconstruct.wool.purple": "Laine violette",
+  "material.tconstruct.wool.blue": "Laine bleue",
+  "material.tconstruct.wool.brown": "Laine marron",
+  "material.tconstruct.wool.green": "Laine verte",
+  "material.tconstruct.wool.red": "Laine rouge",
+  "material.tconstruct.wool.black": "Laine noire",
+  "material.tconstruct.wool.flavor": "Woolooloo",
+  "material.tconstruct.wool.encyclopedia.ammo": "Multiplie les dégats du projectil par 0. Les dégats de base peuvent toujours être augmenté par un arc, et le projectil peut toujours énerver les monstres.",
+  "material.tconstruct.wool.encyclopedia.armor": "Donne +10% de résistance au recul",
+
+  "material.tconstruct.feather": "Plume",
+  "material.tconstruct.feather.flavor": "L'empennage de flèche traditionel",
+  "material.tconstruct.feather.encyclopedia.ammo": "N'a aucun effet spécial, n'a pas non plus d'inconvénients.",
+
+  "material.tconstruct.paper": "Papier",
+  "material.tconstruct.paper.flavor": "Fragile, mais efficace",
+  "material.tconstruct.paper.encyclopedia.ammo": "Réduir la puissance du projectile de 1.",
+
+  "material.tconstruct.leaves": "Feuilles",
+  "material.tconstruct.leaves.flavor": "100% naturel",
+  "material.tconstruct.leaves.encyclopedia.ammo": "Donne deux fois moins de flèches, mais elles peuvent être rendu en changeant le matériau.",
+
+  "material.tconstruct.amethyst": "Améthyste",
+  "material.tconstruct.amethyst.flavor": "Aide à tirer avec précision, tant que vous ne cherchez à tirer en ligne droite",
+  "material.tconstruct.amethyst.encyclopedia.ammo": "Augmente la puissance du projectile de +0.75 par niveau, mais restreint les angles que le projectile peut prendre. Se cumule avec les arcs en bronzéthyste pour restreindre l'angle de tir encore plus.",
+
+  "material.tconstruct.prismarine": "Prismarine",
+  "material.tconstruct.prismarine.flavor": "L'arme de la mer",
+  "material.tconstruct.prismarine.encyclopedia.ammo": "Permet de tirer dans l'eau, et augmente les dégats de projectile de +1 par niveau contre les cibles sumbergés. Donne un niveau d'appât sur les cannes à pêche.",
+  "material.tconstruct.prismarine.flavor.shell": "Gardé par le gardien",
+  "material.tconstruct.prismarine.encyclopedia.shell": "Lorsque attaqué, a 15% de chance de faire 1-4 dégats à l'attaqueur, ou 30% de chance si bloqué.",
+
+  "material.tconstruct.gunpowder": "Poudre à canon",
+  "material.tconstruct.gunpowder.flavor": "Explosive!",
+  "material.tconstruct.gunpowder.encyclopedia.ammo": "Fait exploser le projectile, avec un rayon de 1 plus 1 par niveau. Les dégats de l'explosion sont basé sur la puissance du projectile.",
+  "material.tconstruct.gunpowder.skull": "Creeper",
   "material.tconstruct.gunpowder.flavor.skull": "C'est à qui, les belles choses qui sont détruites maintenant, creeper?",
   "material.tconstruct.gunpowder.encyclopedia.skull": "Maintenir la touche d'interaction du casque tout en s'accroupissant fait exploser le porteur.",
 
-  "material.tconstruct.earthslime": "Mondeslime",
-
-  "material.tconstruct.skyslime": "céletslime",
+  "material.tconstruct.redstone": "Redstone",
+  "material.tconstruct.redstone.flavor": "Rapile!",
+  "material.tconstruct.redstone.encyclopedia.ammo": "Augmente la vélocité de +10% par niveau pour les flèches, et +20% pour les projectiles lancés.",
   
+  "material.tconstruct.earthslime": "Mondeslime",
+  "material.tconstruct.earthslime.flavor": "Vers moi!",
+  "material.tconstruct.earthslime.encyclopedia.ammo": "Inverse la direction du recul sur la cible.",
+  "material.tconstruct.earthslime.flavor.slime": "Beurk, ça pousse!",
+  "material.tconstruct.earthslime.encyclopedia.slime": "Donne 5% de chance par niveau de régénérer de l'overslime chaque seconde.",
+
+  "material.tconstruct.skyslime": "Céletslime",
+  "material.tconstruct.skyslime.flavor": "Loin de moi!",
+  "material.tconstruct.skyslime.encyclopedia.ammo": "Augmente le recul sur la cible.",
+  "material.tconstruct.skyslime.flavor.slime": "Flotte comme un papillon",
+  "material.tconstruct.skyslime.encyclopedia.slime": "Réduit la gravité de 5%, plus 10% par niveau par pièce d'armure.",
+
+  "material.tconstruct.turtle": "Tortue",
+  "material.tconstruct.turtle.flavor": "Baby turtle, do do do",
+  "material.tconstruct.turtle.encyclopedia.armor": "Donne +10% de résistance sous l'eau, et augmente la vitesse de nage de 5% par niveau (basé sur la pièce d'armure avec le plus haut niveau).",
+  "material.tconstruct.turtle.encyclopedia.shell": "Donne un niveau de respiration et augmente la vitesse de nage de +10% par niveau.",
+
+  "material.tconstruct.nautilus": "Nautile",
+  "material.tconstruct.nautilus.flavor": "Maîtrisez la cuisine de la mer",
+  "material.tconstruct.nautilus.encyclopedia.shell": "Rend immunisé à Poison I, Faim II, et Nausée I. Si décoré, augmente le niveau max de chaque.",
+
+  "material.tconstruct.blaze": "Blaze",
+  "material.tconstruct.blaze.flavor": "Brûlez tout!",
+  "material.tconstruct.blaze.encyclopedia.ammo": "Enflamme les flèches, mettant feu à la cible pour 5 secondes par niveau.",
+  "material.tconstruct.blaze.skull": "Blaze",
   "material.tconstruct.blaze.flavor.skull": "Je leur ai dit que c'est techniquement du «crachat de feu», pas du «souffle de feu», mais apparemment je ne choisis pas les noms des choses que j'invente.",
-  "material.tconstruct.blaze.encyclopedia.skull": "Permet de cracher des boules de feu depuis l'inventaire. 5 secondes de recharge, ne fonctionne pas sous l'eau",
+  "material.tconstruct.blaze.encyclopedia.skull": "Rend immunisé à Conductif I, et ne peut pas prendre feu.",
+  "material.tconstruct.blaze.encyclopedia.ribcage": "Augmente les dégats à main nu de +2 contre les cibles en feu.",
 
   "material.tconstruct.ender_pearl": "Perle d'ender",
+  "material.tconstruct.ender_pearl.flavor": "La méthode sûre pour perler",
+  "material.tconstruct.ender_pearl.encyclopedia.ammo": "Vous téléporte à l'endroit où le projectile atterrit, ce qui le détruit. S'il touche un monstre, échange vos positions.",
+  "material.tconstruct.ender_pearl.skull": "Enderman",  
   "material.tconstruct.ender_pearl.flavor.skull": "Les Endermen savent éviter le danger… et les scientifiques. Ils ignorent mes demandes d'interview depuis des semaines!",
   "material.tconstruct.ender_pearl.encyclopedia.skull": "Se téléporte automatiquement lorsqu'attaqué par un projectile, et aléatoirement lors d'une attaque au corps-à-corps. Délai de 15 secondes.",
-
+  "material.tconstruct.ender_pearl.flavor.slime": "Pour éviter vos problèmes",
+  "material.tconstruct.ender_pearl.encyclopedia.slime": "Lorsque attaqué, a 25% de chance par pièce d'armure de téléporter l'attaqueur ailleur. Aux plus haut niveaux, les téléporte plus loin!",
+  
   "material.tconstruct.glass": "Verre",
+  "material.tconstruct.glass.flavor": "Se brise à l’impact",
+  "material.tconstruct.glass.encyclopedia.ammo": "Réduit les dégats du projectile de 0.75 par niveau, mais lui permet de stoquer un liquide. À l’impact, applique les effets des fluides stoqués. Si le réservoir est rempli, se brise au contact avec un bloc.",
+
+  "material.tconstruct.slimeball": "Slime",
+  "material.tconstruct.slimeball.earth": "Mondeslime",
+  "material.tconstruct.slimeball.sky": "Céletslime",
+  "material.tconstruct.slimeball.ichor": "Ichor",
+  "material.tconstruct.slimeball.ender": "Enderslime",
+  "material.tconstruct.slimeball.flavor": "Comme du caoutchouc!",
+  "material.tconstruct.slimeball.encyclopedia.ammo": "Réduit la précision des flèches de 0.5.",
+
   
   "__comment": "Tier 3 Materials",
   "material.tconstruct.slimesteel": "Slimacier",
@@ -2037,6 +2140,7 @@
   "material.tconstruct.pig_iron.flavor": "Le meilleur matériau, sans discussion.",
   "material.tconstruct.pig_iron.encyclopedia": "Peut être mangé pour restaurer 1 point de faim par niveau à 0,6 de saturation",
   "material.tconstruct.pig_iron.encyclopedia.armor": "A 15% de chances par niveau de manger l'armure pour 1 point de faim par niveau à 0,6 de saturation",
+  "material.tconstruct.pig_iron.skull": "Piglin zombifié",
   "material.tconstruct.pig_iron.flavor.skull": "Tu ne m'aimeras pas quand je suis en colère!",
   "material.tconstruct.pig_iron.encyclopedia.skull": "Donne 15 secondes de force après avoir été blessé par une autre créature",
   
@@ -2044,9 +2148,12 @@
   "material.tconstruct.darkthread.flavor": "Viens du côté obscur, on a du fil à coudre",
   "material.tconstruct.darkthread.encyclopedia": "Augmente les chances de loot sur les créatures, cumulable avec la chance",
   "material.tconstruct.darkthread.encyclopedia.ranged": "Augmente les chances de loot sur les créatures tuées par une flèche",
+  "material.tconstruct.darkthread.skull": "Araignée venimeuse",
   "material.tconstruct.darkthread.flavor.skull": "Parfait pour les duels d'esprit, quand il faut décider et boire pour savoir qui a raison.",
   "material.tconstruct.darkthread.encyclopedia.skull": "Rend le porteur immunisé au poison, mais n'enlève pas le poison déjà présent",
+  "material.tconstruct.darkthread.encyclopedia.laces": "Augmente les chances de loot sur les créatures tuées. Au 2ème niveau, augmente l'expérience des créatures tuées de 25%.",
 
+  
   "__comment": "Tier Nether Materials",
   "material.tconstruct.cobalt": "Cobalt",
   "material.tconstruct.cobalt.flavor": "Coblat. Le matériau de l'Armée Rouge.",
@@ -2054,24 +2161,56 @@
   "material.tconstruct.cobalt.encyclopedia.ranged": "Augmente la vitesse de tir et la vélocité de 5% par niveau",
   "material.tconstruct.cobalt.encyclopedia.armor": "Réduit les dégâts des attaques de mêlée de 8% par niveau, et augmente la vitesse de déplacement avec des objets de 5% par niveau maximum",
 
+  "material.tconstruct.kobold": "Kobold",
+  "material.tconstruct.kobold.flavor": "Comme les écailles d'une créature fantastique",
+  "material.tconstruct.kobold.encyclopedia.shell": "Donne +5% de vitesse d'attaque, +10% de vitesse d'utilisation d'objet, et +15% de vitesse de minage par niveau.",
+  
   "material.tconstruct.steel": "Acier",
   "material.tconstruct.steel.flavor": "En gros, 90% de la science des matériaux",
   "material.tconstruct.steel.encyclopedia": "Accorde +10% de durabilité et de dégâts de mêlée par niveau",
   "material.tconstruct.steel.encyclopedia.ranged": "Accorde +10% de durabilité et +5% de puissance de projectile par niveau",
   "material.tconstruct.steel.encyclopedia.armor": "Accorde +10% de durabilité et +1 de robustesse par niveau",
+
+  "material.tconstruct.magnetite": "Magnétite",
+  "material.tconstruct.magnetite.flavor": "Magnétisme naturel",
+  "material.tconstruct.magnetite.encyclopedia.ammo": "Attire les créatures dans un rayon de 3 blocs par niveau vers l'endroit que le projectile touche.",
+  "material.tconstruct.magnetite.encyclopedia.shell": "Attire les objets, avec un rayon et une vitesse dépendant du niveau.",
+
+  "material.tconstruct.quartz": "Quartz",
+  "material.tconstruct.quartz.flavor": "Coupant!",
+  "material.tconstruct.quartz.encyclopedia.ammo": "Augmente les dégats du projectile de0.5 par niveau.",
+
+  "material.tconstruct.dragon_scale": "Écaille de dragon",
+  "material.tconstruct.dragon_scale.flavor": "Avec ça, même les dragons me craindront!",
+  "material.tconstruct.dragon_scale.encyclopedia.armor": "Donne +8% de résistance dans les air, et augmente les dégats de 5% par niveau (basé sur la pièce d'armure avec le plus haut niveau).",
+  "material.tconstruct.dragon_scale.encyclopedia.ammo": "Augmente les dégats du projectile de 1 par niveau si lancé en plein vol.",
+  "material.tconstruct.dragon_scale.skull": "Dragon",
+  "material.tconstruct.dragon_scale.flavor.skull": "Pas de one shot!",
+  "material.tconstruct.dragon_scale.encyclopedia.skull": "Empêche de prendre des dégats suppérieur à tes points de vie max - 2 en une seul attaque. Ne réduit pas les dégats en dessous de 1.",
+  "material.tconstruct.dragon_scale.encyclopedia.shell": "Augmente les dégats critiques de +10%, et la hauteur de chute sans danger de 2 blocs.",
+
+  "material.tconstruct.shulker": "Shulker",
+  "material.tconstruct.shulker.flavor": "Incassable!",
+  "material.tconstruct.shulker.encyclopedia.armor": "Donne +10% de résistance accroupi, mais réduits les dégats infligés de 10% par niveau accroupi.",
+  "material.tconstruct.shulker.encyclopedia.ammo": "Permet de récupérer les flèches mêmes si elles touchent des créatures, les rendant réutilisable à l'infini. De plus, l'objet ne disparaitera pas.",
+  "material.tconstruct.shulker.flavor.shell": "Devient la boite",
+  "material.tconstruct.shulker.encyclopedia.shell": "Donne 3 emplacements d'inventaire, plus 3 par niveau.",
   
   "material.tconstruct.manyullyn": "Manyullyn",
   "material.tconstruct.manyullyn.flavor": "Le métal que la plupart des Tinkers ne prononceront jamais correctement. Aussi appelé le métal qui coupe les étoiles.",
-  
-  "material.tconstruct.nicrosil.encyclopedia": "Donne jusqu'à +2.5 dégâts par niveau, augmentation linéaire sur 8 coups consécutifs",
-  "material.tconstruct.nicrosil.encyclopedia.ranged": "Les flèches gagnent jusqu'à +1.25 dégât par niveau (avant vélocité), augmentation linéaire sur 8 flèches consécutives",
-  "material.tconstruct.nicrosil.encyclopedia.armor": "Augmente temporairement les dégâts de mêlée de 1 après avoir pris des dégâts, avec un maximum égal au total des niveaux de toutes les armures",
+  "material.tconstruct.manyullyn.encyclopedia": "Augmente les dégats de +1 par niveau si les points de vie sont au maximum, et +0.6 dégats par niveau si la cible est à ses points de vie maximum.",
+  "material.tconstruct.manyullyn.encyclopedia.ranged": "Augmente la puissance des projectiles de +0.5 par niveau si les points de vie sont au maximum, et +0.25 par niveau si la cible est à ses points de vie maximum.",
+  "material.tconstruct.manyullyn.encyclopedia.armor": "Si les points de vie sont au maximum, prend 1 dégat en moins après l'armure, avec un minimum de 1.",
   
   "material.tconstruct.hepatizon": "Hepatizon",
   "material.tconstruct.hepatizon.flavor": "He-pa-ti-zon – faites-le bouillir, écrasez-le, mettez-le dans un ragoût.",
   "material.tconstruct.hepatizon.encyclopedia.melee_harvest": "Augmente la vitesse de minage jusqu'à 25% par niveau, augmentation linéaire sur 32 blocs minés consécutivement",
   "material.tconstruct.hepatizon.encyclopedia.ranged": "Augmente la vitesse de tir jusqu'à 25% par niveau, augmentation linéaire lors du tir de 16 flèches consécutives",
   "material.tconstruct.hepatizon.encyclopedia.armor": "Convertit 50% des dégâts subis en réduction temporaire de dégâts. La réduction dure 5 secondes par niveau.",
+
+  "material.tconstruct.ichorskin": "Peau gluante",
+  "material.tconstruct.ichorskin.flavor": "Est ce que l'ichor a  des slimes??",
+  "material.tconstruct.ichorskin.encyclopedia.armor": "Donne +5% de vitesse de mouvement, +2.5% de vitesse d'attaque, et +7.5% de vitesse de minage.",
   
   "material.tconstruct.cinderslime": "Scorieslime",
   "material.tconstruct.cinderslime.flavor": "Jette-le dans le feu!",
@@ -2081,18 +2220,44 @@
   "material.tconstruct.queens_slime.flavor": "Les princesses sont mauvaises, il te faut une Reine.",
   "material.tconstruct.queens_slime.encyclopedia": "Réduit la durabilité de 15% par niveau, dont 66% vont vers l'overslime",
   
-  "material.tconstruct.blazing_bone": "Os flamboyant",
+  "material.tconstruct.blazing_bone": "Os ardent",
   "material.tconstruct.blazing_bone.flavor": "Maîtrise la pleine puissance de la Forteresse du Nether – os et blaze",
   "material.tconstruct.blazing_bone.encyclopedia": "Donne +1% de dégâts par seconde de feu, jusqu'à +15% pour 15 secondes de lave. Bonus réduit par la résistance au feu.",
   "material.tconstruct.blazing_bone.encyclopedia.ranged": "Donne +1% de dégâts de flèche par seconde de feu, jusqu'à +15% pour 15 secondes de lave. Bonus réduit par la résistance au feu.",
+  "material.tconstruct.blazing_bone.encyclopedia.armor": "Lorsque attaqué, a 15% de chance d'appliquer conductif à l'attaqueur, lui faisant prendre 2 fois plus de dégats du feu pour 5 à 10 secondes (ou jusqu'à 15 secondes si bloqué).",
+  "material.tconstruct.blazing_bone.encyclopedia.ammo": "Applique conductif à la cible, leur faisant prendre 2 fois plus de dégats du feu pour 5 à 10 secondes.",
+  "material.tconstruct.blazing_bone.encyclopedia.ribcage": "Les attaques à main nu appliquent conductif à la cible, leur faisant prendre 2 fois plus de dégats du feu pour 5 secondes plus 5 secondes par niveau.",
   
   "material.tconstruct.blazewood": "Blazetronc",
   "material.tconstruct.blazewood.flavor": "La flamme protège la flamme",
   "material.tconstruct.blazewood.encyclopedia.armor": "Accorde +0,5% de protection contre les dégâts non liés au feu par seconde de feu, jusqu'à +7,5% pour 15 secondes de lave. Bonus réduit par la résistance au feu.",
+  "material.tconstruct.blazewood.encyclopedia.ammo": "Rend la cible brillante pour 10 secondes. Si le projectile touche un bloc, place une source de lumière permanente sur ce bloc, mais détruit le projectile.",
 
   "material.tconstruct.ichor": "Ichor",
+  "material.tconstruct.ichor.flavor": "Ricochets",
+  "material.tconstruct.ichor.encyclopedia.ammo": "Cause les projectiles de rebondir une fois contre des blocs, plus deux rebons par niveau. Augmente la puissance de 0.5 par niveau par rebond avant de toucher une cible.",
+  "material.tconstruct.ichor.flavor.slime": "Pique comme un castor",
+  "material.tconstruct.ichor.encyclopedia.slime": "Donne +5% de vitesse de mouvement, +2.5% de vitesse d'attaque, et +7.5% de vitesse de minage.",
   
   "material.tconstruct.magma": "Magma",
+  "material.tconstruct.magma.flavor": "Extinction",
+  "material.tconstruct.magma.encyclopedia.ammo": "Le projectile disparait une demi-seconde après être lancé, laissant des particules de flamme derrière.",
+  "material.tconstruct.magma.encyclopedia.slime": "Réduit les dégats du feu de 10% par niveau, et réduit le temps enflammé.",
+
+  "material.tconstruct.glowstone": "Pierre lumineuse",
+  "material.tconstruct.glowstone.flavor": "En plein jour ou dans la nuit noire, nul grotte n'échappe à mon regard!",
+  "material.tconstruct.glowstone.encyclopedia.ammo": "Rend la cible brillante pour 10 secondes. Si le projectile touche un bloc, place une source de lumière permanente sur ce bloc, mais détruit le projectile.",
+
+  "material.tconstruct.jadeite": "Jadéite",
+  "material.tconstruct.jadeite.flavor": "Pierre précieuse crystalisée",
+  "material.tconstruct.jadeite.encyclopedia.ribcage": "Donne jusqu'à +2.5 dégats à main nu par niveau, les dégats augmentant de 0.5 par niveau par coup consécutif jusqu'à 5 coups.",
+
+  "material.tconstruct.jeweled_hide": "Peau ornée",
+  "material.tconstruct.jeweled_hide.flavor": "Cuir tanné avec des pierres précieuses",
+  "material.tconstruct.jeweled_hide.encyclopedia.melee_harvest": "Augmente les chances de loot sur les blocs, cumulable avec la chance.",
+  "material.tconstruct.jeweled_hide.encyclopedia.ranged": "Augmente la qualité du loot de la pêche, cumulable avec la chance.",
+  "material.tconstruct.jeweled_hide.encyclopedia.armor": "Augmente les points de vie max de 1 coeur. Sur les boucliers, retirer le bouclier causera un coeur de dégat pour compenser.",
+  "material.tconstruct.jeweled_hide.encyclopedia.laces": "Augmente les chances de loot sur les blocs. Au 2ème niveau, augmente les chances de loot sur les créatures tuées.",
   
   "material.tconstruct.ancient_hide": "Peau antique",
   "material.tconstruct.ancient_hide.flavor": "Cuir tanné par la plus ancienne des pierres",
@@ -2105,28 +2270,90 @@
   "material.tconstruct.ancient.encyclopedia.ranged": "Chaque niveau accorde +1 emplacement de capacité au prix de -10% de vitesse de tir.",
   "material.tconstruct.ancient.encyclopedia.armor": "Chaque niveau accorde +1 emplacement de capacité au prix de -10% de vitesse de déplacement, ou -10% de vitesse d'attaque sur les boucliers.",
 
+  
   "__comment": "Tier End Materials",
 
+  "material.tconstruct.knightmetal": "Chevaliétal",
+  "material.tconstruct.knightmetal.flavor": "Métal du slime voyageur, aussi trouvable chez les créatures du crépuscule.",
+  "material.tconstruct.knightmetal.encyclopedia": "Augmente les dégats de +0.4 damage par niveau par pièce d'armure sur la cible.",
+  "material.tconstruct.knightmetal.encyclopedia.ranged": "Augmente les dégats de +0.2 par niveau par pièce d'armure sur la cible (avant la vélocité).",
+  "material.tconstruct.knightmetal.encyclopedia.armor": "Donne +4% de protection par niveau par objet dans les mains de l'attaqueur.",
+  "material.tconstruct.knightmetal.flavor.skull": "Lama",
+  "material.tconstruct.knightmetal.encyclopedia.skull": "Permet de tirer des projectiles depuis le casque en utilisant le bouton d'interraction. Le tir peut être chargé, et prend 2 secondes pour la charge max.",
+
+  "material.tconstruct.knightly": "Chevaleresque",
+  "material.tconstruct.knightly.flavor": "Métal du slime voyageur, plus tranchant brut.",
+  "material.tconstruct.knightly.encyclopedia.ammo": "Augmente les dégats de +0.2 par niveau par pièce d'armure sur la cible (avant la vélocité).",
+  "material.tconstruct.knightly.encyclopedia.shell": "Donne +10% de protection par niveau pour chaque emplacement d'armure vide.",
+
+  "material.tconstruct.end_rod": "Barre de l'end",
+  "material.tconstruct.end_rod.flavor": "Arrow end's justify its means (TODO traduire).",
+  "material.tconstruct.end_rod.encyclopedia.ammo": "Le projectile ignore la gravité pour une seconde après avoir été tiré.",
+  "material.tconstruct.end_rod.flavor.ribcage": "Arrow end's justify its means (TODO traduire).",
+  "material.tconstruct.end_rod.encyclopedia.ribcage": "Les attaques à main nu infligent de la lévitation pour 2 secondes, plus jusqu'à 5 secondes supplémentaires par niveau.",
+  
   "material.tconstruct.knightslime": "Chevaleresqueslime",
-  "material.tconstruct.knightslime.flavor": "Visqueux, métallique, et aussi pierreux ? Fascinant !",
+  "material.tconstruct.knightslime.flavor": "Visqueux, métallique, et aussi pierreux? Fascinant!",
+  "material.tconstruct.knightslime.encyclopedia.melee_harvest": "Consomme 1 overslime par niveau (ou 5 pour les outils large) pour donner +20% de vitesse de minage et +15% de vitesse d'attaque.",
+  "material.tconstruct.knightslime.encyclopedia.ranged": "Consomme 1 overslime par niveau pour donner +0.06 velocité et vitesse de tir par niveau.",
+  "material.tconstruct.knightslime.encyclopedia.armor": "Consomme jusqu'à 2 overslime par niveau pour réduire les dégats reçu de 2.5% par overslime consommé.",
 
   "material.tconstruct.enderslime_vine": "Liane d'enderslime",
   "material.tconstruct.enderslime_vine.flavor": "La Fin?",
-  "material.tconstruct.enderslime_vine.encyclopedia.melee_harvest": "Téléporte le porteur à l'endroit des blocs minés ou l'échange avec les monstres attaqués",
-  "material.tconstruct.enderslime_vine.encyclopedia.ranged": "Téléporte le porteur à l'endroit où les flèches atterrissent dans les blocs ou l'échange avec les monstres touchés par les flèches",
+  "material.tconstruct.enderslime_vine.encyclopedia.melee_harvest": "Vous téléporte à l'emplacement des blocs minés, ou échange votre position avec les monstres attaqués",
+  "material.tconstruct.enderslime_vine.encyclopedia.ranged": "Vous téléporte à l'endroit où le projectile atterrit. S'il touche un monstre, échange vos positions.",
+  "material.tconstruct.enderslime_vine.encyclopedia.armor": "Lorsque attaqué, a 7.5% de chance d'éviter l'attaque, avec un temps de recharge court. La chance d'esquive est doublé pour les projectiles.",
+  "material.tconstruct.enderslime_vine.encyclopedia.laces": "Lorsque attaqué, a 7.5% de chance d'éviter l'attaque, avec un temps de recharge court. La chance d'esquive est doublé pour les projectiles.",
 
+  "material.tconstruct.enderslimeskin": "Peau gluante",
+  "material.tconstruct.enderslimeskin.flavor": "Bye bye!",
+  "material.tconstruct.enderslimeskin.encyclopedia.armor": "Lorsque attaqué, a 25% de chance de téléporter l'attaqueur ailleur.",
+  
   "material.tconstruct.enderslime": "Enderslime",
+  "material.tconstruct.enderslime.flavor": "Zwooop",
+  "material.tconstruct.enderslime.encyclopedia.ammo": "Téléporte la cible aléatoirement dans un rayon de 16 blocs, ou 24 blocs au niveau 2.",
+  "material.tconstruct.enderslime.encyclopedia.slime": "Lorsque attaqué, a 7.5% de chance d'éviter l'attaque, avec un temps de recharge court. La chance d'esquive est doublé pour les projectiles.",
+
   
   "__comment": "Slimesuit materials",
 
   "material.tconstruct.clay": "Argile",
-
+  "material.tconstruct.clay.flavor": "100% naturel!",
+  "material.tconstruct.clay.encyclopedia.slime": "Donne +1 d'armure et +5% de résistence au recul par niveau.",
+  
   "material.tconstruct.honey": "Miel",
+  "material.tconstruct.honey.flavor": "Super Sucré!",
+  "material.tconstruct.honey.encyclopedia.slime": "Donne 15% de chance par niveau de manger l'armure (ce qui consomme un peu de durabilité) pour 1 point de faim par niveau avec 0.1 saturation, et soigne le poison.",
 
-  "material.tconstruct.phantom": "Membrane de Fantôme",
+  "material.tconstruct.venom": "Venin",
+  "material.tconstruct.venom.flavor.slime": "Contresort!",
+  "material.tconstruct.venom.encyclopedia.slime": "Donne 10% de protection par niveau contre les dégats magique, et réduit la durée des effets négatifs.",
+  
+  "material.tconstruct.phantom": "Membrane de Phantom",
+  "material.tconstruct.phantom.flavor.shell": "Combat comme un phantom",
+  "material.tconstruct.phantom.encyclopedia": "Donne 0.5% de protection par luminosité en dessous de 10, jusqu'à 5% dans le noir complet.",
+  "material.tconstruct.phantom.encyclopedia.shell": "Permet de sauter une fois de plus dans les air, mais si ce n'est pas décoré, augmente la gravité.",
+
+  "material.tconstruct.horn": "Corne",
+  "material.tconstruct.horn.minecraft.ponder_goat_horn": "Corne de réflexion",
+  "material.tconstruct.horn.minecraft.sing_goat_horn":   "Corne de chant",
+  "material.tconstruct.horn.minecraft.seek_goat_horn":   "Corne de quête",
+  "material.tconstruct.horn.minecraft.feel_goat_horn":   "Corne de sentiment",
+  "material.tconstruct.horn.minecraft.admire_goat_horn": "Corne d'admiration",
+  "material.tconstruct.horn.minecraft.call_goat_horn":   "Corne d'appel",
+  "material.tconstruct.horn.minecraft.yearn_goat_horn":  "Corne d'aspiration",
+  "material.tconstruct.horn.minecraft.dream_goat_horn":  "Corne de songe",
+  "material.tconstruct.horn.flavor.ribcage": "Charge comme une chèvre",
+  "material.tconstruct.horn.encyclopedia.ribcage": "Les attaques à main nu font +4 de dégats par niveau en courant.",
+
+  "material.tconstruct.cheese": "Fromage",
+  "material.tconstruct.cheese.flavor": "Bien vieilli!",
+  "material.tconstruct.cheese.encyclopedia.ranged": "Can be eaten (consuming some durability) to restore 1 hunger at 0.4 saturation and to remove a random effect.",
+  "material.tconstruct.cheese.encyclopedia.laces": "Donne 15% de chance par niveau de manger l'armure (ce qui consomme un peu de durabilité) pour 1 point de faim par niveau avec 0.4 saturation, et retire un effet aléatoire.",
   
   "material.tconstruct.blood": "Sang",
 
+  
   "__comment": "Tier 2 Integration Materials",
   "material.tconstruct.osmium": "Osmium",
   "material.tconstruct.osmium.flavor": "Trop dense pour comprendre la plupart des blagues",
@@ -2161,6 +2388,11 @@
   "material.tconstruct.treated_wood.flavor": "Slán go fóill",
   "material.tconstruct.treated_wood.encyclopedia": "Augmente la durabilité et l'efficacité de réparation de 15%",
 
+  "material.tconstruct.ironwood": "Bois de fer",
+  "material.tconstruct.ironwood.flavor": "C'est du bois?",
+  "material.tconstruct.ironwood.encyclopedia": "Quand de la durabilité est utilisé, consomme 1 de durabilité en plus (ignorant les modifieurs) pour partager cette durabilité avec un outil aléatoire en main ou dans la barre d'accès rapide. La cible gagne 1 barkskin, plus 1 par niveau.",
+  "material.tconstruct.ironwood.encyclopedia.armor": "Quand de la durabilité est utilisé, consomme 1 de durabilité en plus (ignorant les modifieurs) pour partager cette durabilité avec une armure aléatoire. La cible gagne 1 barkskin, plus 1 par niveau.",
+
   
   "__comment": "Tier 3 Integration Materials",
   "material.tconstruct.bronze": "Bronze",
@@ -2180,20 +2412,52 @@
   "material.tconstruct.invar.encyclopedia": "Accorde +15% d'attaque et -10% de vitesse de déplacement par niveau",
   "material.tconstruct.invar.encyclopedia.ranged": "Accorde +0.15 de précision dans les biomes à température neutre",
   "material.tconstruct.invar.encyclopedia.armor": "Réduit les dégâts de 5% par niveau dans les biomes à température neutre",
+
+  "material.tconstruct.pewter": "Étain",
+  "material.tconstruct.pewter.flavor": "Le métal le plus puissant.",
+  "material.tconstruct.pewter.encyclopedia": "Augmente les dégats de +0.25 par niveau par point de vie perdu en dessous de 11.",
+  "material.tconstruct.pewter.encyclopedia.ranged": "Augmente la puissance de +0.1 par niveau par point de vie perdu en dessous de 11.",
+  "material.tconstruct.pewter.encyclopedia.armor": "Donne 1% de protection par niveau par point de vie perdu en dessous de 11.",
   
   "material.tconstruct.electrum": "Électrum",
   "material.tconstruct.electrum.flavor": "Parfait pour les composants électroniques.",
   "material.tconstruct.electrum.encyclopedia": "Accorde +25% d'XP par niveau sur les blocs et monstres",
   "material.tconstruct.electrum.encyclopedia.ranged": "Accorde +25% d'XP par niveau sur les monstres tués par des flèches",
+  "material.tconstruct.electrum.encyclopedia.armor": "Lorsque attaqué, a 20% de chance par niveau de faire 2-5 dégats à l'attaqueur s'il est dans l'eau, ou 10% par niveau sous la pluie.",
   
   "material.tconstruct.necronium": "Necronium",
   "material.tconstruct.necronium.flavor": "Avec autant de décomposition, il ne lui reste probablement qu'un quart de vie",
-  "material.tconstruct.necronium.encyclopedia": "Inflige au moins 5 secondes de Wither à la cible, et a 25% de chances de te l'infliger aussi",
+  "material.tconstruct.necronium.encyclopedia": "Inflige 6 secondes de wither à la cible, et a 25% de chances de te l'infliger aussi",
+  "material.tconstruct.necronium.encyclopedia.armor": "Lorsque attaqué, a 50% de chance d'infliger 6 secondes de wither à l'attaqueur (ou 100% de chance si bloqué), et a 10% de chances de te l'infliger aussi.",
+  "material.tconstruct.necronium.encyclopedia.ribcage": "Les attaques à main nu infligent 6 secondes de wither à la cible, et ont 25% de chances de te l'infliger aussi.",
   
   "material.tconstruct.plated_slimewood": "Bois visqueux plaqué",
   "material.tconstruct.plated_slimewood.flavor": "Tout le brillant du laiton avec la souplesse du slime",
-  "material.tconstruct.plated_slimewood.encyclopedia": "Accorde +100% à toutes les méthodes de restauration du sur-slime",
+  "material.tconstruct.plated_slimewood.encyclopedia": "Accorde +100% à toutes les méthodes de restauration d'overslime",
 
+  "material.tconstruct.steeleaf": "Feuille de fer",
+  "material.tconstruct.steeleaf.flavor": "C'est une feuille?",
+  "material.tconstruct.steeleaf.encyclopedia.ammo": "Augmente les chances de loot sur les créatures tués. Cumulable avec la chance sur les arcs.",
+  "material.tconstruct.steeleaf.encyclopedia": "Augmente l'XP reçu des blocs et créatures tués de 50%.",
+  "material.tconstruct.steeleaf.encyclopedia.ranged": "Augmente l'XP reçu des créatures tués par des flèches de 50%.",
+  "material.tconstruct.steeleaf.encyclopedia.armor": "Augmente l'XP reçu des blocs et créatures tués de 25%.",
+
+
+  "_comment": "Tier 4 Integration Materials",
+
+  "material.tconstruct.fiery": "Métal ardent",
+  "material.tconstruct.fiery.flavor": "Un métal constemment chaud, forgé à la perfection.",
+  "material.tconstruct.fiery.encyclopedia": "L'outil fond automatiquement tout le loot. À plus haut niveau, donne 20% de chance par niveau d'obtenir du loot fondu supplémentaire.",
+  "material.tconstruct.fiery.encyclopedia.ranged": "Les flèches fondent automatiquement tout le loot. À plus haut niveau, donne 20% de chance par niveau d'obtenir du loot fondu supplémentaire.",
+  "material.tconstruct.fiery.encyclopedia.armor": "Donne 5% de protection par niveau si l'attaqueur est en feu.",
+  
+  "material.tconstruct.nicrosil": "Nicrosil",
+  "material.tconstruct.nicrosil.flavor": "Stoque l'investiture.",
+  "material.tconstruct.nicrosil.encyclopedia": "Donne jusqu'à +2.5 dégâts par niveau, augmentation linéaire sur 8 coups consécutifs",
+  "material.tconstruct.nicrosil.encyclopedia.ranged": "Les flèches gagnent jusqu'à +1.25 dégât par niveau (avant vélocité), augmentation linéaire sur 8 flèches consécutives",
+  "material.tconstruct.nicrosil.encyclopedia.armor": "Augmente temporairement les dégâts de mêlée de 1 après avoir pris des dégâts, avec un maximum égal au total des niveaux de toutes les armures",
+
+  
   "_comment": "Modifiers",
 
   "key.categories.tconstruct": "Tinkers' Construct",
@@ -2217,7 +2481,13 @@
   "modifier.tconstruct.offhanded.2": "Sans mains",
   "modifier.tconstruct.offhanded.flavor": "N'y pense pas trop fort",
   "modifier.tconstruct.offhanded.description": "Désactive les capacités d'interaction de l'outil quand la main secondaire est occupée. Le second niveau désactive entièrement les capacités d'interaction.",
-
+  "modifier.tconstruct.blunted": "Émoussé",
+  "modifier.tconstruct.blunted.flavor": "Sans danger pour l'entrainement",
+  "modifier.tconstruct.blunted.description": "Empêche l'outil de faire des dégats sur les créatures, rendant les capacités d'interraction plus simple à utiliser.",
+  "modifier.tconstruct.barebow": "Arc nu",
+  "modifier.tconstruct.barebow.flavor": "Une discipline historique de tir à l'arc",
+  "modifier.tconstruct.barebow.description": "L'arc n'utilise pas de flèche de l'inventaire, mais peut utiliser des flèches d'un carquois ou de tir cristallin.",
+  
   
   "_comment": "Durability",
   "modifier.tconstruct.reinforced": "Renforcé",
